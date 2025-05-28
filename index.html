@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Character Counter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>Character Counter</h1>
+    <textarea id="text" placeholder="Start typing or paste your text here..." oninput="updateCounts()"></textarea>
+
+    <div class="output">
+      <div class="box">
+        <h3>Characters (with spaces)</h3>
+        <p id="charWithSpaces">0</p>
+      </div>
+      <div class="box">
+        <h3>Characters (without spaces)</h3>
+        <p id="charWithoutSpaces">0</p>
+      </div>
+      <div class="box">
+        <h3>Word Count</h3>
+        <p id="wordCount">0</p>
+      </div>
+  </div><link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</body>
+</html>
